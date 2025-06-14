@@ -139,7 +139,7 @@ export const Orders: React.FC = () => {
                       {order.orderItems.map((item, index) => (
                         <div key={index} className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
                           <img
-                            src={`http://localhost:5000${item.image}`}
+                            src={`https://ecom-rmkj.onrender.com${item.image}`}
                             alt={item.name}
                             className="w-12 h-12 object-cover rounded"
                           />

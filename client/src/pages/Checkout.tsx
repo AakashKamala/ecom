@@ -224,7 +224,7 @@ export const Checkout: React.FC = () => {
               {items.map((item) => (
                 <div key={item.product._id} className="flex items-center space-x-3">
                   <img
-                    src={`http://localhost:5000${item.product.image}`}
+                    src={`https://ecom-rmkj.onrender.com${item.product.image}`}
                     alt={item.product.name}
                     className="w-12 h-12 object-cover rounded"
                   />

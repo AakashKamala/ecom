@@ -64,7 +64,7 @@ export const Cart: React.FC = () => {
               <div key={item.product._id} className="bg-white rounded-lg shadow-md p-6">
                 <div className="flex items-center space-x-4">
                   <img
-                    src={`http://localhost:5000${item.product.image}`}
+                    src={`https://ecom-rmkj.onrender.com${item.product.image}`}
                     alt={item.product.name}
                     className="w-20 h-20 object-cover rounded-lg"
                   />

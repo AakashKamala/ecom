@@ -1,7 +1,7 @@
 import { AuthResponse, Product, ProductsResponse, Order, User } from '../types';
 
 // const API_BASE = 'http://localhost:5000/api';
-const API_BASE = 'https://ecom-rmkj.onrender.com/api';
+export const API_BASE = 'https://ecom-rmkj.onrender.com/api';
 
 class ApiService {
   private getAuthHeaders() {

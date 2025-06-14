@@ -109,7 +109,7 @@ export const ProductDetail: React.FC = () => {
             <div className="space-y-4">
               <div className="relative">
                 <img
-                  src={`http://localhost:5000${product.image}`}
+                  src={`https://ecom-rmkj.onrender.com${product.image}`}
                   alt={product.name}
                   className="w-full h-96 object-cover rounded-lg"
                 />
